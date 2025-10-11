@@ -57,18 +57,11 @@ void cubesGenerator()
             printf("\n");
         ptr++;
     }
+
+    
 }
 
-int main()
-{
 
-    fflush(stdin);
 
-    lengthFinder();
+ 
 
-    getchar();
-
-    cubesGenerator();
-
-    return 0;
-}
