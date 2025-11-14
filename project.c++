@@ -28,5 +28,7 @@ int main()
     int Minutes = (totalseconds % 3600) / 60;
     int Seconds = totalseconds % 60;
 
+     cout <<endl<< "HH:MM:SS => " << Hours << ":" << Minutes << ":" << Seconds <<endl;
     return 0;
 }
+
