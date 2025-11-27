@@ -48,7 +48,7 @@ public:
     }
 };
 
-//-------------------- 3. DEVICE + INHERITANCE --------------------
+//-------------------- 3. DEVICE--------------------
 class Device {
 protected:
     char brand[20];
@@ -87,7 +87,7 @@ public:
     }
 };
 
-//-------------------- 4. DISCOUNT (ABSTRACT CLASS) --------------------
+//-------------------- 4. DISCOUNT--------------------
 class Device2 {
 public:
     virtual float calculateDiscount() = 0;
@@ -126,7 +126,6 @@ public:
     void move() { cout << "Fish swims in water." << endl; }
 };
 
-//-------------------- MAIN MENU --------------------
 int main() {
 
     int choice = -1;
@@ -209,3 +208,4 @@ int main() {
 
     return 0;
 }
+
