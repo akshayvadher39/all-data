@@ -89,12 +89,24 @@ int main() {
         cin >> choice;
 
         switch (choice) {
-            case 1: enqueue(); break;
-            case 2: dequeue(); break;
-            case 3: display(); break;
-            case 4: update(); break;
-            case 5: bubbleSort(); break;
-            case 6: cout << "program Exit" << endl; break;
+            case 1: enqueue(); 
+                break;
+            
+            case 2: dequeue();
+                break;
+            
+            case 3: display();
+                break;
+            
+            case 4: update(); 
+                break;
+            
+            case 5: bubbleSort(); 
+                break;
+            
+            case 6: cout << "program Exit" << endl; 
+                break;
+            
             default: cout << "invalid Choice" << endl;
         }
 
@@ -102,5 +114,6 @@ int main() {
 
     return 0;
 }
+
 
 
